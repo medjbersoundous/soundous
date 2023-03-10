@@ -92,7 +92,7 @@ footer img {
   z-index: 2;
   overflow: hidden;
 }
-.cachÃ© {
+.caché {
   display: none;
 }
 
@@ -196,8 +196,11 @@ footer img {
 
 /*texte-element*/
 .texte-element {
-  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   border: 1px solid #32729a;
   color: black;
   width: 910px;
@@ -316,79 +319,4 @@ footer img {
     overflow: visible;
     text-align: left;
   }
-}
-
-.colors
-{
-    color: #32729a; 
-    /* ou bien color : blue; */
-   
-}
-.display{
-    display: flex  ;
-    align-items: center;
-    justify-content: space-around  ;
-}
-.backG
-{
-  background-color: #32729a;
-  color: white;
-  
-}
-.bord{
-  border-radius: 13px;
-  padding: 10px;
-  width: 120px;
-  border-color: #32729a;
-  border-style: solid;
-  
-}
-#border, #images, #image , #background, #color {
-  width: 250px;
-}
-.margin 
-{
-  margin: 40px;
-}
-.displays{
-  display: flex;
-  flex-direction: column;
-}
-.displays button{
-  margin: 8px;
-  padding: 7px;
-  border-radius: 13px;
-  padding: 10px;
-  width: 120px;
-  background-color: #32729a;
-  border-style: none;
-  color: white;
-  cursor: pointer;
-  
-}
-.displays button:hover{
-  background-color: white;
-  color: #32729a;
-  border: #32729a 1px solid;
- transition: 0.5s;
-  
-  
-}
-.padd{
-  border-radius: 13px;
-  width: 120px;
-  border-color: #32729a;
-  border-style: solid;
-  
-  
-}
-@media screen and (max-width: 762px){
-.display{
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-}
-.displays{
-  margin-top: 30px;
-}
 }
