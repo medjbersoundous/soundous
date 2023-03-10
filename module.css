@@ -370,6 +370,8 @@ footer img {
   background-color: white;
   color: #32729a;
   border: #32729a 1px solid;
+ transition: 0.5s;
+  
   
 }
 .padd{
@@ -377,6 +379,7 @@ footer img {
   width: 120px;
   border-color: #32729a;
   border-style: solid;
+  
   
 }
 @media screen and (max-width: 762px){
